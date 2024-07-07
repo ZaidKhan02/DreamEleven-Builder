@@ -1,0 +1,81 @@
+.navbar {
+    background-color: #22262e;
+}
+
+.logoHeader {
+    font-size: 30px;
+}
+
+.navButton {
+    border: 1px solid #303030e6;
+    border-radius: 10px;
+    background-color: #303030e6;
+}
+
+nav {
+    display: flex;
+    /*images and links will be side by side*/
+    align-items: center;
+    justify-content: space-between;
+    /*creates space between the image logo and the links, since those are the 2 elements inside nav. At first, they were side by side*/
+}
+
+.logo {
+    width: 140px;
+}
+
+nav ul li {
+    display: inline-block;
+    /*it will be horizontally displayed. at first they were in a vertical column*/
+    list-style: none;
+    /*10 from top and bottom and 20 from left and right*/
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.logoHeader .firstHeader {
+    color: turquoise;
+    font-size: 30px;
+    font-weight: bold;
+    border: 1px solid #303030e6;
+    background-color: #303030e6;
+    border-radius: 10px;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.logoHeader .secondHeader {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    border: 1px solid rgb(91, 91, 91);
+    border-radius: 10px;
+    background-color: rgb(91, 91, 91);
+    padding-left: 6px;
+    padding-right: 5px;
+    padding-top: 4.5px;
+    padding-bottom: 4.5px;
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 0%;
+}
+
+.socialIcons {
+    font-size: 25px;
+    margin-left: 1040px;
+    /*if i'm using the bootstrap one, maybe make it 1000px*/
+    margin-top: 10px;
+    color: white;
+    display: inline-block;
+}
+
+.socialIcons:hover {
+    color: turquoise;
+    transform: translateY(-2px);
+    /*this might be extra*/
+}
