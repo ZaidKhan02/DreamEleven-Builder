@@ -14,10 +14,8 @@
 
 nav {
     display: flex;
-    /*images and links will be side by side*/
     align-items: center;
     justify-content: space-between;
-    /*creates space between the image logo and the links, since those are the 2 elements inside nav. At first, they were side by side*/
 }
 
 .logo {
@@ -26,9 +24,7 @@ nav {
 
 nav ul li {
     display: inline-block;
-    /*it will be horizontally displayed. at first they were in a vertical column*/
     list-style: none;
-    /*10 from top and bottom and 20 from left and right*/
 }
 
 nav ul li a {
@@ -68,7 +64,6 @@ nav ul li a {
 .socialIcons {
     font-size: 25px;
     margin-left: 1040px;
-    /*if i'm using the bootstrap one, maybe make it 1000px*/
     margin-top: 10px;
     color: white;
     display: inline-block;
@@ -77,5 +72,4 @@ nav ul li a {
 .socialIcons:hover {
     color: turquoise;
     transform: translateY(-2px);
-    /*this might be extra*/
 }
